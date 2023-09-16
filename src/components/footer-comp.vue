@@ -17,7 +17,11 @@
   </body>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: 'footercomp',
+};
+</script>
 <style>
 .footer_container {
   display: flex;

@@ -50,7 +50,11 @@
   </body>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: 'headercomp',
+};
+</script>
 <style>
 .head_container {
   display: flex;

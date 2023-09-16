@@ -24,7 +24,11 @@
   </body>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: 'termcomp',
+};
+</script>
 <style>
 .head_container {
   display: flex;
