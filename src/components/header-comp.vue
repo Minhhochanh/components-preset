@@ -1,7 +1,7 @@
 <template>
   <body>
     <div class="head_container">
-      <img class="head_logo" alt="" src="./public/header_logo.png" />
+      <img class="head_logo" alt="" src="Files/public/header_logo.png" />
       <div class="head_script_container">
         <p class="head_script">Is your identity at risk?</p>
         <p class="head_script">
@@ -13,7 +13,11 @@
   </body>
 </template>
 
-<script></script>
+<script>
+export default {
+  name: 'headercomp',
+};
+</script>
 <style>
 .head_container {
   display: flex;
